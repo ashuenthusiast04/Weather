@@ -1,0 +1,44 @@
+/* Navbar styles */
+.navbar {
+  background-color:black; /* White background color */
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  color: white; /* Black text color */
+  font-size: 1.5rem; /* Larger font size for branding */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+ /* Smooth transition for hover effect */
+  align-content: center;
+  
+}
+
+.navbar .navbar-brand img {
+  margin-right: 10px; /* Space between the logo and text */
+}
+
+.navbar .navbar-brand:hover {
+  color: #FFFFFF; /* Change text color to white on hover */
+  /* background: linear-gradient(90deg, rgb(115, 50, 120) 0%, rgb(108, 48, 98) 100%);  */
+  
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1.2rem; /* Smaller font size on smaller screens */
+  }
+
+  .navbar .navbar-brand img {
+    width: 25px; /* Smaller logo on smaller screens */
+    height: 25px;
+  }
+}
